@@ -1,35 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="3" passed="1">
+<testng-results skipped="3" failed="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="82160" started-at="2019-08-25T03:42:42Z" finished-at="2019-08-25T03:44:04Z">
+  <suite name="Default suite" duration-ms="78" started-at="2019-08-31T18:19:06Z" finished-at="2019-08-31T18:19:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="82160" started-at="2019-08-25T03:42:42Z" finished-at="2019-08-25T03:44:04Z">
+    <test name="Default test" duration-ms="78" started-at="2019-08-31T18:19:06Z" finished-at="2019-08-31T18:19:07Z">
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42dafa95]" name="setUp" is-config="true" duration-ms="42497" started-at="2019-08-25T09:12:42Z" finished-at="2019-08-25T09:13:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@42dafa95]" name="loginPageTitleTest" duration-ms="166" started-at="2019-08-25T09:13:25Z" finished-at="2019-08-25T09:13:25Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [#1 Free CRM software for any business] but found [Free CRM #1 cloud software for any business large or small]]]>
-            </message>
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-31T23:49:07Z" finished-at="2019-08-31T23:49:07Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [#1 Free CRM software for any business] but found [Free CRM #1 cloud software for any business large or small]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at org.testng.Assert.assertEquals(Assert.java:188)
-	at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:39)
+              <![CDATA[java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initilization(TestBase.java:50)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -50,106 +41,42 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="loginPageTitleTest" duration-ms="15" started-at="2019-08-31T23:49:07Z" finished-at="2019-08-31T23:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42dafa95]" name="tearDown" is-config="true" duration-ms="5538" started-at="2019-08-25T09:13:25Z" finished-at="2019-08-25T09:13:31Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-31T23:49:07Z" finished-at="2019-08-31T23:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42dafa95]" name="setUp" is-config="true" duration-ms="11600" started-at="2019-08-25T09:13:31Z" finished-at="2019-08-25T09:13:42Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-31T23:49:07Z" finished-at="2019-08-31T23:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@42dafa95]" name="crmLogoImageTest" duration-ms="495" started-at="2019-08-25T09:13:42Z" finished-at="2019-08-25T09:13:43Z">
+        <test-method status="SKIP" signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="crmLogoImageTest" duration-ms="16" started-at="2019-08-31T23:49:07Z" finished-at="2019-08-31T23:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crmLogoImageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42dafa95]" name="tearDown" is-config="true" duration-ms="933" started-at="2019-08-25T09:13:43Z" finished-at="2019-08-25T09:13:44Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-31T23:49:07Z" finished-at="2019-08-31T23:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42dafa95]" name="setUp" is-config="true" duration-ms="9547" started-at="2019-08-25T09:13:44Z" finished-at="2019-08-25T09:13:53Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-31T23:49:07Z" finished-at="2019-08-31T23:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@42dafa95]" name="loginTest" duration-ms="10282" started-at="2019-08-25T09:13:53Z" finished-at="2019-08-25T09:14:04Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
-  (Session info: chrome=76.0.3809.100)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'LAPTOP-IT92D12K', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}), userDataDir=C:\Users\Rupesh\AppData\Local\Temp\scoped_dir7860_369365872}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:60715}, acceptInsecureCerts=false, browserVersion=76.0.3809.100, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 186d7ca3ecc040f47132b0a503f9fef9
-*** Element info: {Using=name, value=email}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
-  (Session info: chrome=76.0.3809.100)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'LAPTOP-IT92D12K', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}), userDataDir=C:\Users\Rupesh\AppData\Local\Temp\scoped_dir7860_369365872}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:60715}, acceptInsecureCerts=false, browserVersion=76.0.3809.100, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 186d7ca3ecc040f47132b0a503f9fef9
-*** Element info: {Using=name, value=email}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:494)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
-	at com.crm.qa.pages.LoginPage.login(LoginPage.java:63)
-	at com.crm.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:52)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42dafa95]" name="tearDown" is-config="true" duration-ms="771" started-at="2019-08-25T09:14:04Z" finished-at="2019-08-25T09:14:04Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-31T23:49:07Z" finished-at="2019-08-31T23:49:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@6500df86]" name="loginTest" duration-ms="0" started-at="2019-08-31T23:49:07Z" finished-at="2019-08-31T23:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

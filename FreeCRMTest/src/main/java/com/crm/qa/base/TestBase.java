@@ -23,7 +23,7 @@ public class TestBase {
 	
 		try {
 			prop=new Properties();
-			FileInputStream input=new FileInputStream("R:\\EclipseWorkspace\\eclipse-workspace\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+			FileInputStream input=new FileInputStream("R:\\Github_Local\\Selenium_Code\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config");
 			prop.load(input);
 			System.out.println("Hi Here");
 			
