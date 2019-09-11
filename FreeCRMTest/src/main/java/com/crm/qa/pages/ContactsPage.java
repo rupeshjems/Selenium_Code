@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
  
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import com.crm.qa.base.TestBase;
 
@@ -27,8 +28,15 @@ public class ContactsPage extends TestBase{
 	public void selectContactsByName(String name)
 	{
 		driver.findElement(By.xpath(""));
+		// To be written by extensive xpath
 	}
 	
+	public void createNewContact()
+	{
+		Select select=new Select(driver.findElement(By.name("Title")));
+		
+		select.selectByVisibleText("");
+	}
 	
 	
 }

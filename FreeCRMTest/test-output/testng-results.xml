@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="1" passed="0">
+<testng-results skipped="3" failed="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="106" started-at="2019-09-02T13:21:23Z" finished-at="2019-09-02T13:21:23Z">
+  <suite name="Default suite" duration-ms="78" started-at="2019-09-03T16:55:39Z" finished-at="2019-09-03T16:55:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="106" started-at="2019-09-02T13:21:23Z" finished-at="2019-09-02T13:21:23Z">
-      <class name="com.crm.qa.testcases.HomePageTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6500df86]" name="setup" is-config="true" duration-ms="0" started-at="2019-09-02T18:51:23Z" finished-at="2019-09-02T18:51:23Z">
+    <test name="Default test" duration-ms="78" started-at="2019-09-03T16:55:39Z" finished-at="2019-09-03T16:55:39Z">
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6500df86]" name="setup" is-config="true" duration-ms="0" started-at="2019-09-03T22:25:39Z" finished-at="2019-09-03T22:25:39Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
 	at com.crm.qa.base.TestBase.initilization(TestBase.java:50)
-	at com.crm.qa.testcases.HomePageTest.setup(HomePageTest.java:30)
+	at com.crm.qa.testcases.ContactsPageTest.setup(ContactsPageTest.java:31)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -45,15 +45,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="verifyHomePageTItleTest()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6500df86]" name="verifyHomePageTItleTest" duration-ms="3" started-at="2019-09-02T18:51:23Z" finished-at="2019-09-02T18:51:23Z">
+        <test-method status="SKIP" signature="verifyContactsPageLabel()[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@6500df86]" name="verifyContactsPageLabel" duration-ms="1" started-at="2019-09-03T22:25:39Z" finished-at="2019-09-03T22:25:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageTItleTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6500df86]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-02T18:51:23Z" finished-at="2019-09-02T18:51:23Z">
+        </test-method> <!-- verifyContactsPageLabel -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-03T22:25:39Z" finished-at="2019-09-03T22:25:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6500df86]" name="setup" is-config="true" duration-ms="0" started-at="2019-09-03T22:25:39Z" finished-at="2019-09-03T22:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="selectContectsTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTest@6500df86]" name="selectContectsTest" duration-ms="2" started-at="2019-09-03T22:25:39Z" finished-at="2019-09-03T22:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectContectsTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-03T22:25:39Z" finished-at="2019-09-03T22:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6500df86]" name="setup" is-config="true" duration-ms="0" started-at="2019-09-03T22:25:39Z" finished-at="2019-09-03T22:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="selectMultipleContectsTest()[pri:3, instance:com.crm.qa.testcases.ContactsPageTest@6500df86]" name="selectMultipleContectsTest" duration-ms="2" started-at="2019-09-03T22:25:39Z" finished-at="2019-09-03T22:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMultipleContectsTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6500df86]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-03T22:25:39Z" finished-at="2019-09-03T22:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
